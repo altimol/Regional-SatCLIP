@@ -1,0 +1,21 @@
+# general config
+batch_size: [2064]
+learning_rate: [0.0001]
+weight_decay: [0.01]
+num_epochs: [350]
+dropout: [0.3]
+grad_clipping: [3]
+# scheduler config
+min_lr: [0.01]
+warmup_value: [0.1]
+# architecture config
+capacity: [1024,2048]
+hidden_layers: [4,6,8]
+# spherical harmonics config
+harmonics_calculation: ["closed-form"] # analytic or closed-form. Analytic works only up to degree 50.
+legendre_polys: [40]
+# grid + siren config
+max_radius: [10]
+min_radius: [0.1]
+# wandb
+"use_wandb": False,   # default = disabled

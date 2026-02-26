@@ -1,0 +1,35 @@
+# Ignore whole folders from the repo
+levin_code/
+Outputs/
+Results/
+results_inference/
+wandb/
+
+# Ignore everything in Data by default
+Data/*
+RAG/*
+
+# Keep these two files from Data
+!Data/data_preperation.py
+!Data/__init__.py
+!Data/handle_multiple_csv.py
+!RAG/RAG_retriever2.py
+!RAG/inference_with_RAG2.py
+!RAG/inference_with_simple_RAG.py
+
+# Make sure the Data folder itself is not ignored as a folder
+!Data/
+!RAG/
+
+# Ignore specific python files in root (or anywhere with **/)
+alphaearth_clean.py
+downstream_evaluation.py
+
+# Usual Python files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
