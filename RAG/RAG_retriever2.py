@@ -11,10 +11,6 @@ def _l2_normalize(x: torch.Tensor, dim: int = -1, eps: float = 1e-8) -> torch.Te
 
 
 def _read_bank_coords_4326_from_csv(csv_path: str) -> np.ndarray:
-    """
-    Reads a CSV with a WKT geometry column that is in EPSG:25830 (UTM),
-    converts it to EPSG:4326, returns Nx2 [lon, lat] in degrees.
-    """
     df = pd.read_csv(csv_path)
 
     if "geometry" not in df.columns:
