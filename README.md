@@ -20,7 +20,7 @@ This implementation:
 - Integrates a retrieval augmented extension  
 - Supports downstream evaluation (code not included)
 
-⚠️ This pipeline is not fully reproducible in a strict end to end manner without further modifications and access to the necessary data. The repository provides an overview of the code used to develop and train Regional SatCLIP, together with the RAG components. Reproduction and execution are possible by meeting the requirements listed below. The downstream evaluation pipeline builds upon the work of Levin van Krieken and was adapted for this thesis. Owing to authorship restrictions, the downstream evaluation code is not distributed within this repository.
+⚠️ This pipeline is not fully reproducible in a strict end to end manner without further modifications and access to the necessary data. The repository provides an overview of the code used to develop and train Regional SatCLIP, together with the RAG components. Reproduction and execution are possible by meeting the requirements listed below. The downstream evaluation pipeline builds upon the work of a previous MSc student (Levin van Krieken) and was adapted for this thesis. Owing to authorship restrictions, the downstream evaluation code is not distributed within this repository.
 
 ---
 
